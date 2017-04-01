@@ -46,6 +46,7 @@ And averaged by SubjectId and Activity
 This leads to the following set of factor columns:
 * SubjectId
 * Activity
+
 With these feature columns (see description above)
 * TimeBodyAccMeanX
 * TimeBodyAccMeanY
