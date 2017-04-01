@@ -27,5 +27,5 @@ From the main script the following actions are performed:
 * create the averaged and tidy Dataset `averageAndMakeTidy()`
   * average features for SubjectId and Activity
   * tidy the feature names (see the `CodeBook.md` file and R comments for description)
-  * write result to `tidyData.csv`
+  * write result to `tidyData.csv` and `tidyData.txt`
 * return the tidy Dataset

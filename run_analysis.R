@@ -102,7 +102,7 @@ run.analysis <- function(){
   # create the tidy dataset
   tidyData<-averageAndMakeTidy(mergedData)
   write.csv(tidyData,file="tidyData.csv",row.names = FALSE, quote=FALSE)
-  
+  write.table(tidyData,file="tidyData.txt",row.names = FALSE)
   # return the tidy dataset
   tidyData
 }
