@@ -1,0 +1,6 @@
+
+.Rhistory
+
+*.csv
+
+UCI HAR Dataset/**
